@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC0ED83325C2E1850003D167 /* Holiday_TODOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0ED83225C2E1850003D167 /* Holiday_TODOApp.swift */; };
+		EC0ED83525C2E1850003D167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0ED83425C2E1850003D167 /* ContentView.swift */; };
+		EC0ED83725C2E1880003D167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0ED83625C2E1880003D167 /* Assets.xcassets */; };
+		EC0ED83A25C2E1880003D167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0ED83925C2E1880003D167 /* Preview Assets.xcassets */; };
+		EC0ED84525C2E1890003D167 /* Holiday_TODOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0ED84425C2E1890003D167 /* Holiday_TODOTests.swift */; };
+		EC0ED85025C2E1890003D167 /* Holiday_TODOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0ED84F25C2E1890003D167 /* Holiday_TODOUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC0ED84125C2E1890003D167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0ED82725C2E1850003D167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC0ED82E25C2E1850003D167;
+			remoteInfo = "Holiday-TODO";
+		};
+		EC0ED84C25C2E1890003D167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0ED82725C2E1850003D167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC0ED82E25C2E1850003D167;
+			remoteInfo = "Holiday-TODO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC0ED82F25C2E1850003D167 /* Holiday-TODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Holiday-TODO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0ED83225C2E1850003D167 /* Holiday_TODOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday_TODOApp.swift; sourceTree = "<group>"; };
+		EC0ED83425C2E1850003D167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC0ED83625C2E1880003D167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC0ED83925C2E1880003D167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC0ED83B25C2E1880003D167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0ED84025C2E1890003D167 /* Holiday-TODOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Holiday-TODOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0ED84425C2E1890003D167 /* Holiday_TODOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday_TODOTests.swift; sourceTree = "<group>"; };
+		EC0ED84625C2E1890003D167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0ED84B25C2E1890003D167 /* Holiday-TODOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Holiday-TODOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0ED84F25C2E1890003D167 /* Holiday_TODOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday_TODOUITests.swift; sourceTree = "<group>"; };
+		EC0ED85125C2E1890003D167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC0ED82C25C2E1850003D167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0ED83D25C2E1890003D167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0ED84825C2E1890003D167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC0ED82625C2E1850003D167 = {
+			isa = PBXGroup;
+			children = (
+				EC0ED83125C2E1850003D167 /* Holiday-TODO */,
+				EC0ED84325C2E1890003D167 /* Holiday-TODOTests */,
+				EC0ED84E25C2E1890003D167 /* Holiday-TODOUITests */,
+				EC0ED83025C2E1850003D167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC0ED83025C2E1850003D167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC0ED82F25C2E1850003D167 /* Holiday-TODO.app */,
+				EC0ED84025C2E1890003D167 /* Holiday-TODOTests.xctest */,
+				EC0ED84B25C2E1890003D167 /* Holiday-TODOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC0ED83125C2E1850003D167 /* Holiday-TODO */ = {
+			isa = PBXGroup;
+			children = (
+				EC0ED83225C2E1850003D167 /* Holiday_TODOApp.swift */,
+				EC0ED83425C2E1850003D167 /* ContentView.swift */,
+				EC0ED83625C2E1880003D167 /* Assets.xcassets */,
+				EC0ED83B25C2E1880003D167 /* Info.plist */,
+				EC0ED83825C2E1880003D167 /* Preview Content */,
+			);
+			path = "Holiday-TODO";
+			sourceTree = "<group>";
+		};
+		EC0ED83825C2E1880003D167 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC0ED83925C2E1880003D167 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC0ED84325C2E1890003D167 /* Holiday-TODOTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC0ED84425C2E1890003D167 /* Holiday_TODOTests.swift */,
+				EC0ED84625C2E1890003D167 /* Info.plist */,
+			);
+			path = "Holiday-TODOTests";
+			sourceTree = "<group>";
+		};
+		EC0ED84E25C2E1890003D167 /* Holiday-TODOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC0ED84F25C2E1890003D167 /* Holiday_TODOUITests.swift */,
+				EC0ED85125C2E1890003D167 /* Info.plist */,
+			);
+			path = "Holiday-TODOUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC0ED82E25C2E1850003D167 /* Holiday-TODO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0ED85425C2E1890003D167 /* Build configuration list for PBXNativeTarget "Holiday-TODO" */;
+			buildPhases = (
+				EC0ED82B25C2E1850003D167 /* Sources */,
+				EC0ED82C25C2E1850003D167 /* Frameworks */,
+				EC0ED82D25C2E1850003D167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Holiday-TODO";
+			productName = "Holiday-TODO";
+			productReference = EC0ED82F25C2E1850003D167 /* Holiday-TODO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC0ED83F25C2E1890003D167 /* Holiday-TODOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0ED85725C2E1890003D167 /* Build configuration list for PBXNativeTarget "Holiday-TODOTests" */;
+			buildPhases = (
+				EC0ED83C25C2E1890003D167 /* Sources */,
+				EC0ED83D25C2E1890003D167 /* Frameworks */,
+				EC0ED83E25C2E1890003D167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC0ED84225C2E1890003D167 /* PBXTargetDependency */,
+			);
+			name = "Holiday-TODOTests";
+			productName = "Holiday-TODOTests";
+			productReference = EC0ED84025C2E1890003D167 /* Holiday-TODOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC0ED84A25C2E1890003D167 /* Holiday-TODOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0ED85A25C2E1890003D167 /* Build configuration list for PBXNativeTarget "Holiday-TODOUITests" */;
+			buildPhases = (
+				EC0ED84725C2E1890003D167 /* Sources */,
+				EC0ED84825C2E1890003D167 /* Frameworks */,
+				EC0ED84925C2E1890003D167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC0ED84D25C2E1890003D167 /* PBXTargetDependency */,
+			);
+			name = "Holiday-TODOUITests";
+			productName = "Holiday-TODOUITests";
+			productReference = EC0ED84B25C2E1890003D167 /* Holiday-TODOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC0ED82725C2E1850003D167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					EC0ED82E25C2E1850003D167 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					EC0ED83F25C2E1890003D167 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = EC0ED82E25C2E1850003D167;
+					};
+					EC0ED84A25C2E1890003D167 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = EC0ED82E25C2E1850003D167;
+					};
+				};
+			};
+			buildConfigurationList = EC0ED82A25C2E1850003D167 /* Build configuration list for PBXProject "Holiday-TODO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC0ED82625C2E1850003D167;
+			productRefGroup = EC0ED83025C2E1850003D167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC0ED82E25C2E1850003D167 /* Holiday-TODO */,
+				EC0ED83F25C2E1890003D167 /* Holiday-TODOTests */,
+				EC0ED84A25C2E1890003D167 /* Holiday-TODOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC0ED82D25C2E1850003D167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0ED83A25C2E1880003D167 /* Preview Assets.xcassets in Resources */,
+				EC0ED83725C2E1880003D167 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0ED83E25C2E1890003D167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0ED84925C2E1890003D167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC0ED82B25C2E1850003D167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0ED83525C2E1850003D167 /* ContentView.swift in Sources */,
+				EC0ED83325C2E1850003D167 /* Holiday_TODOApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0ED83C25C2E1890003D167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0ED84525C2E1890003D167 /* Holiday_TODOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0ED84725C2E1890003D167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0ED85025C2E1890003D167 /* Holiday_TODOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC0ED84225C2E1890003D167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC0ED82E25C2E1850003D167 /* Holiday-TODO */;
+			targetProxy = EC0ED84125C2E1890003D167 /* PBXContainerItemProxy */;
+		};
+		EC0ED84D25C2E1890003D167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC0ED82E25C2E1850003D167 /* Holiday-TODO */;
+			targetProxy = EC0ED84C25C2E1890003D167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC0ED85225C2E1890003D167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC0ED85325C2E1890003D167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC0ED85525C2E1890003D167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Holiday-TODO/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Holiday-TODO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kariel-Myrr.Holiday-TODO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC0ED85625C2E1890003D167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Holiday-TODO/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Holiday-TODO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kariel-Myrr.Holiday-TODO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC0ED85825C2E1890003D167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Holiday-TODOTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kariel-Myrr.Holiday-TODOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holiday-TODO.app/Holiday-TODO";
+			};
+			name = Debug;
+		};
+		EC0ED85925C2E1890003D167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Holiday-TODOTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kariel-Myrr.Holiday-TODOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holiday-TODO.app/Holiday-TODO";
+			};
+			name = Release;
+		};
+		EC0ED85B25C2E1890003D167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Holiday-TODOUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kariel-Myrr.Holiday-TODOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Holiday-TODO";
+			};
+			name = Debug;
+		};
+		EC0ED85C25C2E1890003D167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Holiday-TODOUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kariel-Myrr.Holiday-TODOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Holiday-TODO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC0ED82A25C2E1850003D167 /* Build configuration list for PBXProject "Holiday-TODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0ED85225C2E1890003D167 /* Debug */,
+				EC0ED85325C2E1890003D167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0ED85425C2E1890003D167 /* Build configuration list for PBXNativeTarget "Holiday-TODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0ED85525C2E1890003D167 /* Debug */,
+				EC0ED85625C2E1890003D167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0ED85725C2E1890003D167 /* Build configuration list for PBXNativeTarget "Holiday-TODOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0ED85825C2E1890003D167 /* Debug */,
+				EC0ED85925C2E1890003D167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0ED85A25C2E1890003D167 /* Build configuration list for PBXNativeTarget "Holiday-TODOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0ED85B25C2E1890003D167 /* Debug */,
+				EC0ED85C25C2E1890003D167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC0ED82725C2E1850003D167 /* Project object */;
+}
