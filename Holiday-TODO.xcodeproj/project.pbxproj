@@ -14,6 +14,8 @@
 		EC0ED84525C2E1890003D167 /* Holiday_TODOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0ED84425C2E1890003D167 /* Holiday_TODOTests.swift */; };
 		EC0ED85025C2E1890003D167 /* Holiday_TODOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0ED84F25C2E1890003D167 /* Holiday_TODOUITests.swift */; };
 		EC0ED86925C2E4620003D167 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EC0ED86825C2E4620003D167 /* .gitignore */; };
+		EC0ED86F25C2E6CC0003D167 /* DataLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0ED86E25C2E6CC0003D167 /* DataLayer.swift */; };
+		EC0ED87425C2E85F0003D167 /* NetJsonGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0ED87325C2E85F0003D167 /* NetJsonGetter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EC0ED84F25C2E1890003D167 /* Holiday_TODOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday_TODOUITests.swift; sourceTree = "<group>"; };
 		EC0ED85125C2E1890003D167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC0ED86825C2E4620003D167 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EC0ED86E25C2E6CC0003D167 /* DataLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLayer.swift; sourceTree = "<group>"; };
+		EC0ED87325C2E85F0003D167 /* NetJsonGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetJsonGetter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		EC0ED83125C2E1850003D167 /* Holiday-TODO */ = {
 			isa = PBXGroup;
 			children = (
+				EC0ED86D25C2E6300003D167 /* Network */,
 				EC0ED83225C2E1850003D167 /* Holiday_TODOApp.swift */,
 				EC0ED83425C2E1850003D167 /* ContentView.swift */,
 				EC0ED83625C2E1880003D167 /* Assets.xcassets */,
@@ -131,6 +136,15 @@
 				EC0ED85125C2E1890003D167 /* Info.plist */,
 			);
 			path = "Holiday-TODOUITests";
+			sourceTree = "<group>";
+		};
+		EC0ED86D25C2E6300003D167 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EC0ED86E25C2E6CC0003D167 /* DataLayer.swift */,
+				EC0ED87325C2E85F0003D167 /* NetJsonGetter.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC0ED83525C2E1850003D167 /* ContentView.swift in Sources */,
+				EC0ED86F25C2E6CC0003D167 /* DataLayer.swift in Sources */,
+				EC0ED87425C2E85F0003D167 /* NetJsonGetter.swift in Sources */,
 				EC0ED83325C2E1850003D167 /* Holiday_TODOApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
