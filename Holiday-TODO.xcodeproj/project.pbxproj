@@ -13,6 +13,7 @@
 		EC0ED83A25C2E1880003D167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0ED83925C2E1880003D167 /* Preview Assets.xcassets */; };
 		EC0ED84525C2E1890003D167 /* Holiday_TODOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0ED84425C2E1890003D167 /* Holiday_TODOTests.swift */; };
 		EC0ED85025C2E1890003D167 /* Holiday_TODOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0ED84F25C2E1890003D167 /* Holiday_TODOUITests.swift */; };
+		EC0ED86925C2E4620003D167 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EC0ED86825C2E4620003D167 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		EC0ED84B25C2E1890003D167 /* Holiday-TODOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Holiday-TODOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0ED84F25C2E1890003D167 /* Holiday_TODOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday_TODOUITests.swift; sourceTree = "<group>"; };
 		EC0ED85125C2E1890003D167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0ED86825C2E4620003D167 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		EC0ED82625C2E1850003D167 = {
 			isa = PBXGroup;
 			children = (
+				EC0ED86825C2E4620003D167 /* .gitignore */,
 				EC0ED83125C2E1850003D167 /* Holiday-TODO */,
 				EC0ED84325C2E1890003D167 /* Holiday-TODOTests */,
 				EC0ED84E25C2E1890003D167 /* Holiday-TODOUITests */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC0ED83A25C2E1880003D167 /* Preview Assets.xcassets in Resources */,
+				EC0ED86925C2E4620003D167 /* .gitignore in Resources */,
 				EC0ED83725C2E1880003D167 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
